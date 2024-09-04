@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .container {
+    color:#e4fbe9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(255, 77, 1);
+    background: radial-gradient(circle, #f2400a 0%, #d98b5de0 65%); 
+  }
+  
+  .container h1 {
+    font-size:2.6rem;
+    margin-bottom:0.2rem;
+  }
+  
+  .container .labels {
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding:.3rem .3rem;
+    background-color: #5f2516;
+    border-radius: 1.5rem;
+  }
+  
+  .active-label {
+    color: #5f2516;
+    background-color: #fe9c6b;
+  }
+  
+  .timer-container {
+    display: flex;
+    flex:2;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .time-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 7.5rem;
+    color:#fcc79b;
+    background: #ff4714;
+    font-size: 3.5rem;
+    box-shadow: 1rem 1.5rem 2rem rgba(0,0,0,0.6)
+  }
+  
+  .button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem; 
+    gap: 1rem; 
+  }
+  
+  button {
+    color: #efefef;
+    font-size: 1rem; 
+    padding: 0.7rem 1.5rem; 
+    border: none;
+    border-radius: 3rem;
+    margin: 0.5rem; 
+    background: #1b120c;
+    min-width: 100px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+
+  button:hover {
+    background-color: #ff6b02; 
+  }
+  
+  .button-wrapper button.activve {
+    color: #51271a;
+    background-color: #ead8c9;
+    border: 1px solid #1b120c;
+  }
+  .form-container {
+    text-align: center;
+  }
+  .input-wrapper {
+    margin: 1.5rem;
+  }
+  .input-wrapper input {
+    height: 30px;
+    width: 30px;
+    padding: 2rem;
+    background-color: #1b0e0c;
+    color:#C9CCEA;
+    border: none;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+    text-align: center;
+    font-size: 14pt;
+  }
