@@ -1,4 +1,4 @@
-# Pomodoro Timer
+# Focus Burst - Pomodoro Timer app
 
 A simple and visually appealing Pomodoro Timer built using React, with a countdown animation and customizable work/break intervals.
 
